@@ -17,7 +17,34 @@ class TestJson:
         assert (JSON.from_json_split('{}') == json.loads('{}'))
 
     def test_class(self):
-        obj = JSON.Object()
+        class SubField:
+            def __init__(self):
+                self.flag = True
+
+        class Field:
+            def __init__(self, tag1, tag2, sub_field_flag=True):
+                self.tag1 = tag1
+                self.tag2 = tag2
+
+                self.sub_field = SubField()
+                self.sub_field.flag = sub_field_flag
+
+        class Object:
+            a = 0
+            b = '123'
+
+            def __init__(self):
+                self.c = 3
+                self.items = [1, 2, 3, 4]
+                self.maps = {
+                    'is': True,
+                    'not': 0,
+                }
+
+                self.field = Field('abc', 'tag2')
+                self.field_2 = Field(777, False, sub_field_flag=False)
+
+        obj = Object()
         assert (JSON.my_json(obj) == json.dumps(JSON.object_to_dict(obj)))
         assert (json.loads(JSON.my_json(obj)) == JSON.from_json_split(JSON.my_json(JSON.object_to_dict(obj))))
 

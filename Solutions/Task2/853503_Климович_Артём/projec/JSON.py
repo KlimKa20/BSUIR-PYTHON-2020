@@ -1,5 +1,6 @@
-import  json
+import json
 import types
+
 
 def my_json(value):
     if isinstance(value, dict):
@@ -38,11 +39,12 @@ def object_to_dict(object):
 
 def from_json_split(string):
     try:
-        return  from_json(string.split(',')[0], string.split(','))
-    except Exception:
+        return from_json(string.split(',')[0], string.split(','))
+    except Exception :
         return "bad input"
 
-def from_json(text,string):
+
+def from_json(text, string):
     if text == "true":
         return True
     elif text == "false":
@@ -53,7 +55,7 @@ def from_json(text,string):
         temp = text[1: -1]
     elif text[0] != "{" and text[0] != "[":
         temp = int(text)
-    elif text[0]=='[':
+    elif text[0] == '[':
         temp = list()
         if text == '[]':
             return temp
@@ -61,7 +63,7 @@ def from_json(text,string):
         while text.find(']') == -1:
             if text[0] == '{' or text[0] == '[':
                 temp.append(from_json(text, string))
-                if len(string[0]) != 0 and string[0][0] == ']': #проверка на закрытие строк
+                if len(string[0]) != 0 and string[0][0] == ']':
                     string[0] = string[0][1:]
                     return temp
                 else:
@@ -74,20 +76,14 @@ def from_json(text,string):
             string.pop(0)
             text = string[0]
             text = text[1:]
-            if text[0] == '[' and text[1] == ']':# Словарь
+            if text[0] == '[' and text[1] == ']':
                 temp.append(list())
-                # if len(text) != 2:
-                #     return temp
-                # else:
-                #     string.pop(0)
-                #     text = string[0]
-                #     text = text[1:]
                 string.pop(0)
                 text = string[0]
                 text = text[1:]
-        tt = text.find(']')
-        temp.append(from_json(text[:tt], string))
-        string[0] = text[tt+1:]
+        brace_index = text.find(']')
+        temp.append(from_json(text[:brace_index], string))
+        string[0] = text[brace_index + 1:]
     else:
         temp = dict()
         if text[0] == '{' and text[1] == '}':
@@ -96,10 +92,10 @@ def from_json(text,string):
         text = text[1:]
         while text.find('}') == -1 or (text.find('{') != -1 and text.find('}') != -1):
             index = text.find(':')
-            if text[index+2] == '{' or text[index+2] == '[':
+            if text[index + 2] == '{' or text[index + 2] == '[':
                 temper = from_json(text[index + 2:], string)
                 temp[text[1:index - 1]] = temper
-                if len(string[0]) != 0 and string[0][0] == '}': #проверка на закрытие строк
+                if len(string[0]) != 0 and string[0][0] == '}':
                     string[0] = string[0][1:]
                     return temp
                 else:
@@ -108,62 +104,18 @@ def from_json(text,string):
                         text = string[0]
                         text = text[1:]
                         continue
-            temper = from_json(text[index+2:], string)
-            temp[text[1:index-1]] = temper
+            temper = from_json(text[index + 2:], string)
+            temp[text[1:index - 1]] = temper
             string.pop(0)
             text = string[0]
             text = text[1:]
-            # if text[0] == '{' and text[1] == '}':# Словарь
-            #     temp.append(dict())
-            #     if len(text) != 2:
-            #         return temp
-            #     else:
-            #         string.pop(0)
-            #         text = string[0]
-            #         text = text[1:]
-        tt = text.find('}')
+        brace_index = text.find('}')
         index = text.find(':')
-        string[0] = text[tt:]
-        temper = from_json(text[index + 2:tt], string)
+        string[0] = text[brace_index:]
+        temper = from_json(text[index + 2:brace_index], string)
         temp[text[1:index - 1]] = temper
-        string[0] = text[tt + 1:]
+        string[0] = text[brace_index + 1:]
     return temp
 
 
-class SubField:
-    def __init__(self):
-        self.flag = True
 
-
-class Field:
-    def __init__(self, tag1, tag2, sub_field_flag=True):
-        self.tag1 = tag1
-        self.tag2 = tag2
-
-        self.sub_field = SubField()
-        self.sub_field.flag = sub_field_flag
-
-
-class Object:
-    a = 0
-    b = '123'
-
-    def __init__(self):
-        self.c = 3
-        self.items = [1, 2, 3, 4]
-        self.maps = {
-            'is': True,
-            'not': 0,
-        }
-
-        self.field = Field('abc', 'tag2')
-        self.field_2 = Field(777, False, sub_field_flag=False)
-
-
-data = [88, [45, [44, [44, [33, 212]]], 77, [], [32, True, "sdasd"]], {
-        'key': 1005,
-        '2': '2',
-        "marks": 5,
-        "sdf": [5, {6: [43, [34, {}, 90]]}, 8],
-        "is_valid": True
-    }]
