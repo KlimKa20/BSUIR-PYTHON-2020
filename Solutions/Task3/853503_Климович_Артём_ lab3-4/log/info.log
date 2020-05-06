@@ -1,0 +1,148 @@
+INFO 2020-05-02 12:51:16,296 autoreload 21412 11860 Watching for file changes with StatReloader
+INFO 2020-05-02 12:56:43,599 autoreload 10624 10680 Watching for file changes with StatReloader
+INFO 2020-05-02 13:23:05,252 autoreload 10624 10680 C:\Users\0Klim\PycharmProjects\untitled5\firstapp\views.py changed, reloading.
+INFO 2020-05-02 13:23:08,722 autoreload 14124 9208 Watching for file changes with StatReloader
+INFO 2020-05-03 22:34:40,646 autoreload 12972 7992 Watching for file changes with StatReloader
+INFO 2020-05-03 22:35:42,966 basehttp 12972 8532 "GET /aboutus/ HTTP/1.1" 200 3858
+INFO 2020-05-03 22:35:43,207 basehttp 12972 13404 "GET /static/css/about_us.css HTTP/1.1" 200 350
+INFO 2020-05-03 22:35:43,226 basehttp 12972 8532 "GET /static/css/base_styles.css HTTP/1.1" 200 1063
+INFO 2020-05-03 22:35:43,298 basehttp 12972 13404 "GET /static/image/c119c8f06ccaa.jpg HTTP/1.1" 200 281113
+INFO 2020-05-03 22:35:43,305 basehttp 12972 8532 "GET /static/image/s1200.webp HTTP/1.1" 200 255304
+WARNING 2020-05-03 22:35:43,692 log 12972 8532 Not Found: /favicon.ico
+WARNING 2020-05-03 22:35:43,693 basehttp 12972 8532 "GET /favicon.ico HTTP/1.1" 404 3973
+INFO 2020-05-03 22:35:45,684 basehttp 12972 8532 "GET / HTTP/1.1" 200 3395
+INFO 2020-05-03 22:35:45,888 basehttp 12972 13404 "GET /media/Praga_2.jpg HTTP/1.1" 200 272255
+INFO 2020-05-03 22:35:45,900 basehttp 12972 8532 "GET /static/css/tour_instance_list.css HTTP/1.1" 200 364
+INFO 2020-05-03 22:35:45,924 basehttp 12972 2912 "GET /media/7e79b151a97cc442418bac02086d8499.jpg HTTP/1.1" 200 284615
+INFO 2020-05-05 21:41:14,969 autoreload 15812 24000 Watching for file changes with StatReloader
+INFO 2020-05-05 21:41:54,187 basehttp 15812 24504 "GET / HTTP/1.1" 200 3395
+INFO 2020-05-05 21:41:57,206 basehttp 15812 24504 "GET /login/ HTTP/1.1" 200 994
+INFO 2020-05-05 21:41:57,266 basehttp 15812 24504 "GET /static/css/styles.css HTTP/1.1" 200 533
+INFO 2020-05-05 21:41:57,396 basehttp 15812 24504 "GET /static/image/5.jpg HTTP/1.1" 200 285105
+INFO 2020-05-05 21:42:05,671 basehttp 15812 24504 "GET /admin/ HTTP/1.1" 302 0
+INFO 2020-05-05 21:42:05,718 basehttp 15812 24504 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+INFO 2020-05-05 21:42:14,089 basehttp 15812 24504 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2020-05-05 21:42:14,398 basehttp 15812 24504 "GET /admin/ HTTP/1.1" 200 9950
+INFO 2020-05-05 21:42:16,973 basehttp 15812 24504 "GET /admin/firstapp/feedback/ HTTP/1.1" 200 14172
+INFO 2020-05-05 21:42:17,130 basehttp 15812 24504 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6190
+INFO 2020-05-05 21:42:17,277 basehttp 15812 23180 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+INFO 2020-05-05 21:42:17,499 basehttp 15812 24504 "GET /static/admin/js/actions.js HTTP/1.1" 200 6766
+INFO 2020-05-05 21:42:17,647 basehttp 15812 23180 "GET /static/admin/js/urlify.js HTTP/1.1" 200 8941
+INFO 2020-05-05 21:42:17,682 basehttp 15812 22836 "GET /static/admin/js/core.js HTTP/1.1" 200 5723
+INFO 2020-05-05 21:42:17,686 basehttp 15812 13960 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 6918
+INFO 2020-05-05 21:42:17,712 basehttp 15812 24504 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1530
+INFO 2020-05-05 21:42:17,846 basehttp 15812 19944 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-05 21:42:17,919 basehttp 15812 23180 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 128820
+INFO 2020-05-05 21:42:18,037 basehttp 15812 20420 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 280364
+INFO 2020-05-05 21:42:18,506 basehttp 15812 20420 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+INFO 2020-05-05 21:42:20,914 basehttp 15812 20420 "GET /admin/firstapp/feedback/71/change/ HTTP/1.1" 200 6762
+INFO 2020-05-05 21:42:21,056 basehttp 15812 20420 "GET /static/admin/css/forms.css HTTP/1.1" 200 8518
+INFO 2020-05-05 21:42:21,104 basehttp 15812 20420 "GET /static/admin/css/widgets.css HTTP/1.1" 200 10322
+INFO 2020-05-05 21:42:21,135 basehttp 15812 23180 "GET /static/admin/js/calendar.js HTTP/1.1" 200 7777
+INFO 2020-05-05 21:42:21,135 basehttp 15812 19944 "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 20232
+INFO 2020-05-05 21:42:21,254 basehttp 15812 23180 "GET /static/admin/js/change_form.js HTTP/1.1" 200 712
+INFO 2020-05-05 21:42:21,286 basehttp 15812 23180 "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 495
+INFO 2020-05-05 21:42:21,315 basehttp 15812 24504 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-05 21:42:21,463 basehttp 15812 24504 "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2020-05-05 21:42:21,464 basehttp 15812 23180 "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2020-05-05 21:42:52,978 autoreload 15812 24000 C:\Users\0Klim\PycharmProjects\untitled5\untitled2\settings.py changed, reloading.
+INFO 2020-05-05 21:42:56,174 autoreload 20208 20212 Watching for file changes with StatReloader
+INFO 2020-05-05 21:42:57,558 basehttp 20208 21544 "GET /admin/firstapp/feedback/ HTTP/1.1" 200 14172
+INFO 2020-05-05 21:42:57,884 basehttp 20208 21544 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-05 21:43:00,184 basehttp 20208 21544 "GET /admin/firstapp/feedback/add/ HTTP/1.1" 200 6460
+INFO 2020-05-05 21:43:00,610 basehttp 20208 21544 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+ERROR 2020-05-05 21:43:09,705 log 20208 21544 Internal Server Error: /admin/firstapp/feedback/add/
+Traceback (most recent call last):
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\contrib\admin\options.py", line 607, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\views\decorators\cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\contrib\admin\sites.py", line 231, in inner
+    return view(request, *args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\contrib\admin\options.py", line 1638, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\utils\decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\utils\decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\contrib\admin\options.py", line 1522, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\contrib\admin\options.py", line 1565, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "C:\Users\0Klim\PycharmProjects\untitled5\firstapp\admin.py", line 25, in save_model
+    executor.map(send, recipients)
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\multiprocessing\pool.py", line 268, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\multiprocessing\pool.py", line 657, in get
+    raise self._value
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\multiprocessing\pool.py", line 121, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\multiprocessing\pool.py", line 44, in mapstar
+    return list(map(*args))
+  File "C:\Users\0Klim\PycharmProjects\untitled5\firstapp\admin.py", line 19, in send
+    'email': email, 'text': obj.email_reply_text,'time': str(obj.email_reply_date), }), EMAIL_HOST_USER,[email])
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\mail\__init__.py", line 60, in send_mail
+    return mail.send()
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\mail\message.py", line 276, in send
+    return self.get_connection(fail_silently).send_messages([self])
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 102, in send_messages
+    new_conn_created = self.open()
+  File "C:\Users\0Klim\PycharmProjects\untitled2\venv\lib\site-packages\django\core\mail\backends\smtp.py", line 69, in open
+    self.connection.login(self.username, self.password)
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "C:\Users\0Klim\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'5.7.8 Username and Password not accepted. Learn more at\n5.7.8  https://support.google.com/mail/?p=BadCredentials 138sm5561824wmb.14 - gsmtp')
+ERROR 2020-05-05 21:43:09,724 basehttp 20208 21544 "POST /admin/firstapp/feedback/add/ HTTP/1.1" 500 178459
+INFO 2020-05-05 21:43:51,443 autoreload 20208 20212 C:\Users\0Klim\PycharmProjects\untitled5\untitled2\settings.py changed, reloading.
+INFO 2020-05-05 21:43:55,052 autoreload 26140 9380 Watching for file changes with StatReloader
+INFO 2020-05-05 21:43:56,716 basehttp 26140 3020 "GET /admin/firstapp/feedback/add/ HTTP/1.1" 200 6460
+INFO 2020-05-05 21:44:02,071 basehttp 26140 3020 "POST /admin/firstapp/feedback/add/ HTTP/1.1" 302 0
+INFO 2020-05-05 21:44:02,478 basehttp 26140 3020 "GET /admin/firstapp/feedback/ HTTP/1.1" 200 14616
+INFO 2020-05-05 21:44:02,750 basehttp 26140 3020 "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+INFO 2020-05-05 21:44:02,887 basehttp 26140 3020 "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2020-05-05 21:58:13,922 basehttp 26140 25700 "GET / HTTP/1.1" 200 3405
+INFO 2020-05-05 21:58:14,450 basehttp 26140 25700 "GET / HTTP/1.1" 200 3405
+INFO 2020-05-05 21:58:19,895 basehttp 26140 22940 "GET /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8/ HTTP/1.1" 200 4507
+INFO 2020-05-05 21:58:19,993 basehttp 26140 22940 "GET /static/css/tour_page.css HTTP/1.1" 200 567
+INFO 2020-05-05 21:58:21,937 basehttp 26140 22940 "POST /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8/ HTTP/1.1" 302 0
+INFO 2020-05-05 21:58:22,096 basehttp 26140 22940 "GET / HTTP/1.1" 200 3405
+INFO 2020-05-05 21:58:25,248 basehttp 26140 22940 "GET /userpage/ HTTP/1.1" 200 5752
+INFO 2020-05-05 21:58:25,323 basehttp 26140 22940 "GET /static/css/user.css HTTP/1.1" 200 1335
+INFO 2020-05-05 21:58:25,387 basehttp 26140 22940 "GET /static/image/c119c8f06ccaa.jpg HTTP/1.1" 200 281113
+INFO 2020-05-05 21:58:27,643 basehttp 26140 22940 "GET /logout/ HTTP/1.1" 302 0
+INFO 2020-05-05 21:58:27,787 basehttp 26140 22940 "GET / HTTP/1.1" 200 3395
+INFO 2020-05-05 21:58:29,453 basehttp 26140 22940 "GET /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 4419
+INFO 2020-05-05 21:58:30,904 basehttp 26140 22940 "POST /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 1112
+INFO 2020-05-05 21:58:38,984 basehttp 26140 22940 "POST /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 1007
+INFO 2020-05-05 21:58:42,895 basehttp 26140 22940 "POST /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 1007
+INFO 2020-05-05 21:58:51,059 basehttp 26140 22940 "GET /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 4419
+INFO 2020-05-05 21:58:53,768 basehttp 26140 22940 "GET /login/ HTTP/1.1" 200 994
+INFO 2020-05-05 22:08:47,622 autoreload 26140 9380 C:\Users\0Klim\PycharmProjects\untitled5\firstapp\views.py changed, reloading.
+INFO 2020-05-05 22:08:51,031 autoreload 1260 24616 Watching for file changes with StatReloader
+INFO 2020-05-05 22:08:57,213 basehttp 1260 15256 "GET /aboutus/ HTTP/1.1" 200 3858
+INFO 2020-05-05 22:08:57,295 basehttp 1260 15256 "GET /static/css/about_us.css HTTP/1.1" 200 350
+INFO 2020-05-05 22:08:59,164 basehttp 1260 15256 "GET / HTTP/1.1" 200 3395
+INFO 2020-05-05 22:09:00,809 basehttp 1260 15256 "GET /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8/ HTTP/1.1" 200 4497
+INFO 2020-05-05 22:09:02,011 basehttp 1260 15256 "POST /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%91%D0%BE%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D0%B8/ HTTP/1.1" 302 0
+INFO 2020-05-05 22:09:02,408 basehttp 1260 15256 "GET /login/ HTTP/1.1" 200 994
+INFO 2020-05-05 22:09:11,877 basehttp 1260 15256 "POST /login/ HTTP/1.1" 302 0
+INFO 2020-05-05 22:09:12,034 basehttp 1260 15256 "GET / HTTP/1.1" 200 3405
+INFO 2020-05-05 22:12:23,855 autoreload 1260 24616 C:\Users\0Klim\PycharmProjects\untitled5\firstapp\views.py changed, reloading.
+INFO 2020-05-05 22:12:29,062 autoreload 21780 24652 Watching for file changes with StatReloader
+INFO 2020-05-05 22:17:06,970 basehttp 21780 11452 "GET /aboutus/ HTTP/1.1" 200 3868
+INFO 2020-05-05 22:17:08,403 basehttp 21780 11452 "GET / HTTP/1.1" 200 3649
+INFO 2020-05-05 22:17:52,363 basehttp 21780 20248 "GET / HTTP/1.1" 200 4145
+INFO 2020-05-05 22:17:54,545 basehttp 21780 20248 "GET /tourpage/%D0%96%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D1%8B%20%D0%A7%D0%B5%D1%85%D0%B8%D0%B8/ HTTP/1.1" 200 4429
+INFO 2020-05-05 22:47:01,323 basehttp 21780 25480 "GET /userpage/ HTTP/1.1" 200 5752
